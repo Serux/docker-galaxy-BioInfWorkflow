@@ -253,7 +253,7 @@ RUN add-tool-shed --url 'http://toolshed.g2.bx.psu.edu/' --name 'Tool Shed'
 ADD sample_tool_list.yaml $GALAXY_ROOT/sample_tool_list.yaml
 RUN install-tools $GALAXY_ROOT/sample_tool_list.yaml
 
-ADD workflows/* $GALAXY_ROOT/workflows/
+ADD workflows/* $GALAXY_HOME/workflows/
 RUN workflow-install --workflow_path $GALAXY_HOME/workflows/ -g http://localhost:8080 -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
 
 # Autostart script that is invoked during container start
