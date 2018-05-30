@@ -29,9 +29,9 @@ tools:
   tool_panel_section_label: 'Alignment'
 - name: 'prokka'
   owner: 'crs4'
-  tool_panel_section_pabel: 'Annotation'
+  tool_panel_section_label: 'Annotation'
 - name: 'antismash'
   owner: 'bgruening'
-  tool_panel_section_pabel: 'Annotation'
+  tool_panel_section_label: 'Annotation'
   
   
