@@ -254,7 +254,8 @@ ADD sample_tool_list.yaml $GALAXY_ROOT/sample_tool_list.yaml
 RUN install-tools $GALAXY_ROOT/sample_tool_list.yaml
 
 ADD workflows/* $GALAXY_HOME/workflows/
-RUN workflow-install -w $GALAXY_HOME/workflows/VelvetworkflowTest.ga -u $GALAXY_DEFAULT_ADMIN_USER -p $GALAXY_DEFAULT_ADMIN_PASSWORD
+ADD install_workflows_wrapper.sh /usr/bin/install-workflows
+RUN install-workflows $GALAXY_HOME/workflows/VelvetworkflowTest.ga
 
 # Autostart script that is invoked during container start
 CMD ["/usr/bin/startup"]
