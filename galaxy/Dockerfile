@@ -250,8 +250,8 @@ RUN chmod +x /usr/bin/install_db.sh
 RUN add-tool-shed --url 'http://toolshed.g2.bx.psu.edu/' --name 'Tool Shed'
 
 # Adding the tool definitions to the container
-ADD tool_list(1).yaml $GALAXY_ROOT/tool_list_1.yaml
-ADD tool_list(2).yaml $GALAXY_ROOT/tool_list_2.yaml
+ADD tool_list_1.yaml $GALAXY_ROOT/tool_list_1.yaml
+ADD tool_list_2.yaml $GALAXY_ROOT/tool_list_2.yaml
 RUN install-tools $GALAXY_ROOT/tool_list_1.yaml
 RUN install-tools $GALAXY_ROOT/tool_list_2.yaml
 
