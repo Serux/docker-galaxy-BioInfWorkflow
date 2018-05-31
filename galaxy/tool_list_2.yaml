@@ -1,0 +1,15 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+tools:
+- name: 'progressivemauve'
+  owner: 'iuc'
+  tool_panel_section_label: 'Alignment'
+- name: 'bowtie2'
+  owner: 'devteam'
+  tool_panel_section_label: 'Alignment'
+- name: 'prokka'
+  owner: 'crs4'
+  tool_panel_section_label: 'Annotation'
+- name: 'antismash'
+  owner: 'bgruening'
+  tool_panel_section_label: 'Annotation'

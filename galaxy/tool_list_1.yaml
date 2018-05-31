@@ -1,15 +1,18 @@
 # This is just a sample file. For a fully documented version of this file, see
 # https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
 tools:
-- name: 'column_maker'
+- name: 'sickle'
+  owner: 'iuc'
+  tool_panel_section_label: 'Quality'
+- name: 'fastqc'
   owner: 'devteam'
-  tool_panel_section_label: 'Columnmaker section'
-- name: 'tabular_to_fasta'
-  owner: 'devteam'
-  tool_panel_section_label: 'New Converters'
-  revisions:
-  - '0b4e36026794'  # v1.1.0
+  tool_panel_section_label: 'Quality'
 - name: 'velvet'
   owner: 'devteam'
   tool_panel_section_label: 'Assembly'
+- name: 'abyss'
+  owner: 'iuc'
+  tool_panel_section_label: 'Assembly'
+
+  
   
