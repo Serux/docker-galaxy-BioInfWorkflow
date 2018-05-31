@@ -109,7 +109,7 @@ RUN mkdir $GALAXY_ROOT && \
 RUN su $GALAXY_USER -c "cp $GALAXY_ROOT/config/galaxy.yml.sample $GALAXY_CONFIG_FILE"
 ADD ./reports_wsgi.ini.sample $GALAXY_CONFIG_DIR/reports_wsgi.ini
 
-ADD sample_tool_list.yaml $GALAXY_HOME/ephemeris/sample_tool_list.yaml
+#ADD sample_tool_list.yaml $GALAXY_HOME/ephemeris/sample_tool_list.yaml
 ADD roles/ /ansible/roles
 ADD provision.yml /ansible/provision.yml
 ADD postgresql_provision.yml /ansible/postgresql_provision.yml
