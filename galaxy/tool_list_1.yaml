@@ -17,6 +17,10 @@ tools:
   owner: 'crs4'
   tool_panel_section_label: 'Annotation'
   
+- name: 'fastq_to_fasta'
+  owner: 'devteam'
+  tool_panel_section_label: 'FastQ_To_Fasta'
+  
 
 
   
