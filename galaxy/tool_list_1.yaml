@@ -4,15 +4,20 @@ tools:
 - name: 'sickle'
   owner: 'iuc'
   tool_panel_section_label: 'Quality'
-- name: 'fastqc'
-  owner: 'devteam'
-  tool_panel_section_label: 'Quality'
+
 - name: 'velvet'
   owner: 'devteam'
   tool_panel_section_label: 'Assembly'
-- name: 'abyss'
-  owner: 'iuc'
-  tool_panel_section_label: 'Assembly'
+  
+- name: 'bowtie2'
+  owner: 'devteam'
+  tool_panel_section_label: 'Alignment'
+  
+- name: 'prokka'
+  owner: 'crs4'
+  tool_panel_section_label: 'Annotation'
+  
+
 
   
   
