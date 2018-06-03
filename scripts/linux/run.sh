@@ -1,4 +1,4 @@
-#!\bin\bash
+#!/bin/bash
 # Starts container if exists, else creates it.
 sudo docker start bioinfworkflow
 if [ $? -eq 0 ]; then
