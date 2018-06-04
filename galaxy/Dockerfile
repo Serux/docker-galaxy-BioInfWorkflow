@@ -156,7 +156,7 @@ WORKDIR $GALAXY_ROOT
 ENV GALAXY_CONFIG_DATABASE_CONNECTION=postgresql://galaxy:galaxy@localhost:5432/galaxy?client_encoding=utf8 \
 GALAXY_CONFIG_ADMIN_USERS=admin@galaxy.org \
 GALAXY_CONFIG_MASTER_API_KEY=HSNiugRFvgT574F43jZ7N9F3 \
-GALAXY_CONFIG_BRAND="Galaxy BioInfWorkflow Flavor" \
+GALAXY_CONFIG_BRAND="BioInfWorkflow" \
 GALAXY_CONFIG_STATIC_ENABLED=False \
 GALAXY_CONFIG_JOB_WORKING_DIRECTORY=$EXPORT_DIR/galaxy-central/database/job_working_directory \
 GALAXY_CONFIG_FILE_PATH=$EXPORT_DIR/galaxy-central/database/files \
