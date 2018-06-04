@@ -1,0 +1,18 @@
+Resumen de la utilidad de cada script.
+
+En principio, sólo es necesario ejecutar "firstStartUp.sh" y automáticamente se crea la imagen y el contenedor de Docker y se inicia.
+http://localhost:8080
+usuario:    admin@galaxy.org
+contraseña: admin
+
+
+[DockerBash.sh:]       Vincula una terminal bash al contenedor BioInfWorkflow que se esté ejecutando. Útil para ejecutar cualquier tipo de orden sobre el contenedor.
+[deletecontainer.sh:]  Elimina el contenedor. Útil cuando se quiere volver al estado inicial, necesario para eliminar la imagen.
+[deleteimage.sh:]      Elimina la imagen. Útil cuando se quiere liberar espacio en el disco.
+->[firstStartUp.sh:]     Llama a los scripts que descargan la imagen e inicial el contenedor. Es el Script que se debe ejecutar para usar Galaxy.
+[hardclean.sh:]        Limpia las imágenes, caché y contenedores que no se estén usando. Útil cuando se quiere liberar espacio en el disco.
+[resetcontainer.sh:]   Llama al script que eliminan el contenedor y al script que lo vuelve a crear.
+[run.sh:]              Inicia el contenedor si existe, si no existe intenta crearlo con la imagen. Si no existe la imagen se intenta descargar de Docker Hub y se crea el contenedor.
+[stop.sh:]             Detiene un contenedor que se esté ejecutando. Útil cuando se quieren recuperar los recursos dedicados al contenedor.
+[updateImageDH.sh:]    Obtiene la imagen de Docker Hub y la construye. Útil en produción.
+[updateImageGH.sh:]    Clona el repositorio de Github y contruye la imagen a partir de él. Es más lento pero más útil en producción.
