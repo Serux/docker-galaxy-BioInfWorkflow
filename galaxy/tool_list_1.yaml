@@ -8,7 +8,11 @@ tools:
 - name: 'velvet'
   owner: 'devteam'
   tool_panel_section_label: 'Assembly'
-  
+
+- name: 'bowtie_color_wrappers'
+  owner: 'devteam'
+  tool_panel_section_label: 'Alignment'
+
 - name: 'bowtie2'
   owner: 'devteam'
   tool_panel_section_label: 'Alignment'
