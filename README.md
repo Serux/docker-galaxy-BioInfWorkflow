@@ -1,6 +1,18 @@
 Galaxy Docker Image BioInfWorkflow Flavour
 ===================
+## BioInfWorkflow
+BioInfWorkflow is a Docker-Galaxy Flavour with the objective of creating a workspace for de-novo bacterial sequencing, with tools and workflows for an easier sequencing process.
 
+Bioinfworkflow main objective is to help unexperienced users to install and make their first steps with Galaxy in their own machine, but can also be installed into a server.
+
+To use BioInfWorkflow in a server, extra configuration must be made. For example, BioInfWorkflow has the default admin user and password, wich must be changed and extra users must be made.
+
+BioInfWorkflow video tutorials can be found in the following playlist (In Spanish):
+https://www.youtube.com/playlist?list=PLvQJ8GkgDuOPdfJdh6NN0oENs-2pArF8e
+
+
+
+## Docker Galaxy
 The [Galaxy](http://www.galaxyproject.org) [Docker](http://www.docker.io) Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features. 
 
 One of the main goals is to make the access to entire tool suites as easy as possible. Usually,
